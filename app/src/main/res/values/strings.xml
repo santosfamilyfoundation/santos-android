@@ -2,7 +2,15 @@
 <resources>
 
     <string name="app_name">Santos</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="nobluetooth_message">You do not have Bluetooth on this phone!</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Button Text options for protoype -->
+    <string name="gasUse">Fuel Usage/Efficiency</string>
+    <string name="speedLimit">Speed, Throttle, RPMs</string>
+    <string name="trafficReport">Traffic Report</string>
+    <string name="driverRanking">Driver Ranking</string>
+    <string name="batteryLevel">Battery Level</string>
+    <string name="facilitiesInArea">Facilities In Area</string>
 
 </resources>

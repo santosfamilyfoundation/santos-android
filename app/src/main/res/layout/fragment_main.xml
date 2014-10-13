@@ -8,9 +8,46 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity$PlaceholderFragment">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_gasUse"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/gasUse"
+            />
+
+        <Button
+            android:id="@+id/button_speedLimit"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/speedLimit"
+            />
+
+        <Button
+            android:id="@+id/button_trafficReport"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/trafficReport"
+            />
+
+        <Button
+            android:id="@+id/button_timeWithoutPhone"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/driverRanking"
+            />
+
+        <Button
+            android:id="@+id/button_myRewards"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/batteryLevel"
+            />
+
+    </LinearLayout>
 
 </RelativeLayout>
